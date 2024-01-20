@@ -1,14 +1,14 @@
 export default {
-    token: 'MTEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    token:os.getenv("TOKEN"),
     prefix: '$',
     allowed: [
-        'ID1',
-        'ID2',
-        'ID3'
+        '1136325885100818676',
+        '',
+        ''
     ],
     banned: [
-        'ID1',
-        'ID2',
-        'ID3'
+        '',
+        '',
+        ''
     ]
 };
